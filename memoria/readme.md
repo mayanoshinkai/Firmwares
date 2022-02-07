@@ -1,6 +1,6 @@
 # Memoria
 
-![Memoria](https://i.imgur.com/81UO4Ft.png)
+![Memoria](https://i.imgur.com/xMP2GJ9.png)
 
 A hotswap drop-in PCB for the V4N4G0N family of keyboards.
 
