@@ -16,9 +16,9 @@
 
 #include "memoria.h"
 
-#define led1 B4
-#define led2 B5
-#define led3 B6
+#define led1 E6
+#define led2 F0
+#define led3 F1
 
 void matrix_init_user(void) {
     setPinOutput(led1);
