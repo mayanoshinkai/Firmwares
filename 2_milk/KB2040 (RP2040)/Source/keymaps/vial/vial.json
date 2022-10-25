@@ -1,0 +1,22 @@
+{
+    "vial": {
+      "midi": "advanced"  
+            },
+    "lighting": "vial_rgb",
+    "matrix": {
+        "rows": 2,
+        "cols": 1
+              },
+    "layouts": {
+        "labels":[
+        ],
+        "keymap":[
+          [
+            "0,0"
+          ],
+          [
+            "1,0"
+          ]
+        ]
+    }
+}
