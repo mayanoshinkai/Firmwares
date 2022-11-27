@@ -20,8 +20,8 @@
     "url": "https://www.cbkbd.com/product/qaz",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x7431",
-        "vid": "0x0001"
+        "pid": "0x0001",
+        "vid": "0x7431"
     },
     "layouts": {
         "LAYOUT": {

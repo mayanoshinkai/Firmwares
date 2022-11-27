@@ -51,17 +51,17 @@ led_config_t g_led_config = { {
 
 void rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
     if (layer_state_is (1)) {
-        RGB_MATRIX_INDICATOR_SET_COLOR(2, 255, 180, 180);
+        RGB_MATRIX_INDICATOR_SET_COLOR(2, 60, 15, 15);
     } else {
         RGB_MATRIX_INDICATOR_SET_COLOR(2, 0, 0, 0);
     }
         if (layer_state_is (2)) {
-        RGB_MATRIX_INDICATOR_SET_COLOR(1, 180, 255, 180);
+        RGB_MATRIX_INDICATOR_SET_COLOR(1, 15, 60, 15);
     } else {
         RGB_MATRIX_INDICATOR_SET_COLOR(1, 0, 0, 0);
     }
         if (layer_state_is (3)) {
-        RGB_MATRIX_INDICATOR_SET_COLOR(0, 180, 180, 255);
+        RGB_MATRIX_INDICATOR_SET_COLOR(0, 15, 15, 60);
     } else {
         RGB_MATRIX_INDICATOR_SET_COLOR(0, 0, 0, 0);
     }
