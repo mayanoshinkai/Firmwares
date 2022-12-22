@@ -10,39 +10,40 @@
     "layouts": {
         "labels":[
             [
-                "Bottom Row",
-                "Full Grid",
-                "1.5u Split (1u)",
-                "1.5u Split (1.5u)",
-                "2u",
-                "3u",
-                "2u Split (1u)",
-                "2u Split (1.5u)",
-                "Rainkeeb",
-                "3u Split",
-                "6u (Centered)",
-                "6u (Off-Centered)",
-                "7u",
-                "8u",
-                "10u",
-                "WKL* 1.5u Split",
-                "WKL* 2u",
-                "WKL* 3u",
-                "WKL* 2u Split",
-                "WKL* Rainkeeb",
-                "WKL* 3u Split",
-                "WKL* 6u (Centered)",
-                "WKL* 6u (Off-Centered)",
-                "HHKB^ 1.5u Split",
-                "HHKB^ 2u",
-                "HHKB^ 3u",
-                "HHKB^ 2u Split",
-                "HHKB^ Rainkeeb",
-                "HHKB^ 3u Split",
-                "HHKB^ 6u (Centered)",
-                "HHKB^ 6u (Off-Centered)",
-                "HHKB^ 8u"
-            ]
+              "Bottom Row",
+              "Full Grid",
+              "1.5u Split (1u)",
+              "1.5u Split (1.5u)",
+              "2u",
+              "3u",
+              "2u Split (1u)",
+              "2u Split (1.5u)",
+              "Rainkeeb",
+              "3u Split",
+              "6u (Centered)",
+              "6u (Off-Centered)",
+              "7u",
+              "8u",
+              "10u",
+              "WKL* 1.5u Split",
+              "WKL* 2u",
+              "WKL* 3u",
+              "WKL* 2u Split",
+              "WKL* Rainkeeb",
+              "WKL* 3u Split",
+              "WKL* 6u (Centered)",
+              "WKL* 6u (Off-Centered)",
+              "HHKB^ 1.5u Split",
+              "HHKB^ 2u",
+              "HHKB^ 3u",
+              "HHKB^ 2u Split",
+              "HHKB^ Rainkeeb",
+              "HHKB^ 3u Split",
+              "HHKB^ 6u (Centered)",
+              "HHKB^ 6u (Off-Centered)",
+              "HHKB^ 8u"
+            ],
+              "Rotary Encoder"
         ],
         "keymap":[
           [
@@ -59,8 +60,18 @@
             {
               "x": 0.25
             },
-            "0,0\n\n\n\n\n\n\n\n\ne",
-            "0,1\n\n\n\n\n\n\n\n\ne"
+            "0,0\n\n\n1,1\n\n\n\n\n\ne",
+            {
+              "x": -1,
+              "d": true
+            },
+            "0,0\n\n\n1,0\n\n\n\n\n\ne",
+            "0,1\n\n\n1,1\n\n\n\n\n\ne",
+            {
+              "x": -1,
+              "d": true
+            },
+            "0,1\n\n\n1,0\n\n\n\n\n\ne"
           ],
           [
             "1,0",
